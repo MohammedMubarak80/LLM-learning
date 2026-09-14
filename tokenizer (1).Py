@@ -4,7 +4,7 @@ import tiktoken
 
 
 #simple tokenizer
-sentence ="i love python programming"
+sentence =input("enter the text....")
 token = sentence.split()
 print("token=",token)
 print(len(token))
